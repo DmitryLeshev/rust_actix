@@ -1,0 +1,11 @@
+[package]
+name = "rust_actix"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-rt = "1.1.1"
+actix-web = "*"
+serde = { version = "*", features = ["derive"] }
